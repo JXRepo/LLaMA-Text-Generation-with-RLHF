@@ -1,39 +1,30 @@
 # LLaMA-Text-Generation-with-RLHF
-# LLaMA-RLHF
+
 Fine-tune a **LLaMA** model using **Reinforcement Learning with Human Feedback (RLHF)** for aligned text generation.
 
 ## Features
-- Actor-critic architecture with a reward model  
+
+- Actor-critic architecture with a reward model
+- 
 - Generates high-quality, human-aligned responses  
 
 ## Usage
-1. Install dependencies:  
-```bash
-pip install -r requirements.txt
-Place JSON data in dataset/ folder
 
-Run training notebooks:
+1. Install dependencies: pip install -r requirements.txt.
 
-bash
-复制代码
-jupyter notebook 2.actor.ipynb
-jupyter notebook 3.critic.ipynb
-jupyter notebook 4.rlhf.ipynb
-Test generation:
+2. Prepare dataset: Place your JSON data in the dataset/ folder.
 
-bash
-复制代码
-jupyter notebook 5.test.ipynb
-Project Structure
-bash
-复制代码
-dataset/   # training and evaluation JSON data
-model/     # saved models (actor, critic, RLHF)
-*.ipynb    # actor, critic, RLHF, test notebooks
-util.py    # tokenizer and generation utilities
-Future Improvements
-Support larger LLaMA models
+3. Run training notebooks:
+jupyter notebook actor.ipynb
+jupyter notebook critic.ipynb
+jupyter notebook rlhf.ipynb
 
-Improve reward model and RLHF strategy
+4. Test generation: jupyter notebook test.ipynb
 
-Optimize training efficiency and stability
+## Future Improvements:
+
+• Support larger LLaMA models
+
+• Improve reward model and RLHF strategy
+
+• Optimize training and generation speed
