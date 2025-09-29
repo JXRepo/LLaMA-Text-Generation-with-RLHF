@@ -5,7 +5,7 @@ Fine-tune a **LLaMA** model using **Reinforcement Learning with Human Feedback (
 ## Features
 
 - Actor-critic architecture with a reward model
-- 
+  
 - Generates high-quality, human-aligned responses  
 
 ## Usage
