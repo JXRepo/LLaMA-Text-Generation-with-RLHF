@@ -1,6 +1,6 @@
 # LLaMA-Text-Generation-with-RLHF
 
-Fine-tune a **LLaMA** model using **Reinforcement Learning with Human Feedback (RLHF)** for aligned text generation.
+Fine-tune a **LLaMA** model using **Reinforcement Learning with Human Feedback (RLHF)** for aligned text generation
 
 ## Features
 
@@ -10,9 +10,9 @@ Fine-tune a **LLaMA** model using **Reinforcement Learning with Human Feedback (
 
 ## Usage
 
-1. Install dependencies: pip install -r requirements.txt.
+1. Install dependencies: pip install -r requirements.txt
 
-2. Prepare dataset: Place your JSON data in the dataset/ folder.
+2. Prepare dataset: Place your JSON data in the dataset/ folder
 
 3. Run training notebooks:
 jupyter notebook actor.ipynb
